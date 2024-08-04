@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "mc.recraftors.hex_banners.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BannerBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "BannerBlockEntityRendererMixin"
+  ]
+}
